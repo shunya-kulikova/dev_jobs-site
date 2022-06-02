@@ -1,0 +1,19 @@
+
+
+.service__first-screen {
+    display: flex;
+}
+
+
+.service__description{
+	padding: 80px 0;
+}
+.service__seo-text{
+	padding: 80px 0 ;
+	p{
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}

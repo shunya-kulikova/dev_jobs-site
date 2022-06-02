@@ -1,0 +1,35 @@
+.testimonials__cards {
+    display: flex;
+    margin: 0 -20px calc(100px - 80px);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials {
+    .page-title {
+        margin-bottom: 100px;
+    }
+	.review-box{
+		min-height: 410px;
+		max-width: 360px;
+		min-width: 360px;
+		margin:0 20px 70px;
+		.text-box {
+			overflow: hidden;
+			max-height: 240px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.testimonials__add-block {
+    background-color: $light-blue;
+    text-align: center;
+    padding: 80px 0;
+
+    p {
+        max-width: 1000px;
+        margin: 0 auto 30px;
+    }
+}
+

@@ -1,0 +1,18 @@
+.no-found{
+ background-color: $light-gray;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+	&__title{
+		font-size: 48px;
+		color: $secondary;
+		margin-bottom: 30px;
+		font-weight: $font-bold;
+	}
+	p{
+		width: 100%;
+		max-width: 760px;
+		margin: 0 auto 30px;
+	}
+}

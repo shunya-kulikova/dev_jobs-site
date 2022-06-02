@@ -1,0 +1,24 @@
+@@include('templates/head.html')
+@@include('templates/header.html')
+<main class="wrapper blog">
+    <div class="page-title">
+        <div class="container">
+            @@include('templates/breadcrumb.html')
+            <h1 class="title_1">Новости и статьи</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="blog__content">
+            <div class="blog__content__articles">
+                @@include('templates/article-card.html')
+                @@include('templates/article-card.html')
+                @@include('templates/article-card.html')
+                @@include('templates/article-card.html')
+                @@include('templates/article-card.html')
+                @@include('templates/pagination.html')
+            </div>
+            @@include('templates/blog_sidebar.html')
+        </div>
+    </div>
+</main>
+@@include('templates/footer.html')

@@ -1,0 +1,39 @@
+/*
+Theme Name: Job's Service
+Theme URI: https://kofelatte.studio/portfolio/
+Author: KofeLatte studio
+Author URI: https://kofelatte.studio/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.This theme, like WordPress, is licensed under the GPL.Use it to make something cool, have fun, and share what you've learned with others.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jobsservice
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+*/
+@import "sass/variables";
+
+
+@import "sass/page/home";
+@import "sass/page/blog";
+@import "sass/page/search_results";
+@import "sass/page/testimonials";
+@import "sass/page/single_article";
+@import "sass/page/about";
+@import "sass/page/contacts";
+@import "sass/page/service";
+@import "sass/page/specific-model-service";
+@import "sass/page/all-models";
+
+
+@import "sass/page/404";
+@import "sass/page/markup";
+@import "sass/templates";
+@import "sass/header";
+@import "sass/footer";
+@import "sass/wordpress";
+
+
+
+@import "sass/global";
+@import "sass/modal";
+@import "sass/media/media";

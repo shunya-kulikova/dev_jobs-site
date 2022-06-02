@@ -1,0 +1,29 @@
+@@include('templates/head.html')
+@@include('templates/header.html')
+<main class="wrapper testimonials">
+	<div class="page-title">
+        <div class="container">
+            @@include('templates/breadcrumb.html')
+            <h1 class="title_1">Отзывы</h1>
+        </div>
+    </div>
+	<div class="container">
+		<div class="testimonials__cards">
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+			@@include('templates/review-box-long.html')
+			@@include('templates/review-box-normal.html')
+		</div>
+		@@include('templates/pagination.html')
+	</div>
+	@@include('templates/testimonial_add-block.html')
+</main>
+@@include('templates/footer.html')

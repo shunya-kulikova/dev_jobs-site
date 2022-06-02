@@ -1,0 +1,25 @@
+@@include('templates/head.html')
+@@include('templates/header.html')
+<main class="wrapper single-article">
+    <div class="page-title">
+        <div class="container">
+            @@include('templates/breadcrumb.html')
+            <h1 class="title_1">Мерцает экран iPhone: причины и способы решения проблемы</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="article">
+            <div class="article__content">
+                @@include('templates/post-item.html')
+               @@include('templates/share-list.html')
+                <div class="article__content__nav">
+                    <a href="single_article.html">Предыдущая статья</a>
+                    <a href="single_article.html">Следующая статья</a>
+                </div>
+
+            </div>
+            @@include('templates/blog_sidebar.html')
+        </div>
+    </div>
+</main>
+@@include('templates/footer.html')

@@ -1,0 +1,13 @@
+.article{
+	display: flex;
+	&__content{
+		margin-bottom: 100px;
+		&__nav{
+			display: flex;
+			justify-content: space-between;
+			a{
+				font-weight: $font-semibold;
+			}
+		}
+	}
+}
